@@ -1,0 +1,12 @@
+console.clear();
+import { initRouter } from "./router";
+import "./components/text";
+import "./components/button";
+import "./components/rock";
+import "./components/paper";
+import "./components/scissors";
+import "./components/timer";
+import "./components/result";
+import "./components/score";
+const root = document.querySelector(".root")!;
+initRouter(root);
